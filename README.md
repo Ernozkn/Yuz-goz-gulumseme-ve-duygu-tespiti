@@ -1,32 +1,29 @@
-# 🧠 Yüz, Göz, Gülümseme ve Duygu Tespiti Sistemi
+# 🧠 Yüz ve Gülümseme Tespiti Sistemi
 
-Bu proje, OpenCV’nin Haar Cascade sınıflandırıcılarını ve DeepFace kütüphanesini kullanarak bir kişinin **yüzünü, gözlerini, gülümsemesini** ve **duygusal durumunu** (mutlu, üzgün, kızgın vb.) gerçek zamanlı olarak analiz eden bir yapay zekâ uygulamasıdır.
+Bu proje, OpenCV'nin Haar Cascade sınıflandırıcılarını kullanarak bir kişinin yüzünü ve gülümsemesini tespit etmeye yarayan gerçek zamanlı bir yapay zekâ uygulamasıdır.
 
 ---
 
 ## 🎯 Projenin Amacı
 
-Bu projenin amacı, kameradan alınan görüntülerde insan yüzünü, gözünü, gülümsemeyi ve duygu durumunu doğru ve etkili şekilde tespit eden bir sistem geliştirmektir. Sistem, sosyal robotlar, eğlence uygulamaları, güvenlik sistemleri ve insan-bilgisayar etkileşimi gibi alanlarda kullanılabilir.
+Bu projenin amacı, kameradan alınan görüntülerde insan yüzünü ve gülümsemeyi doğru bir şekilde tespit eden basit ve etkili bir sistem geliştirmektir. Proje, özellikle sosyal robotlar, eğlence uygulamaları ve güvenlik sistemleri gibi alanlarda kullanılabilir.
 
 ---
 
 ## 👥 Hedef Kullanıcı Kitlesi
 
-- Yapay zekâ ve bilgisayarla görü konularına ilgi duyan öğrenciler  
-- İnsan davranış analizi geliştiren yazılım geliştiriciler  
-- Görüntü işleme üzerine çalışan akademisyenler  
+- Yapay zekâ ve bilgisayarla görü konularına ilgi duyan öğrenciler
+- İnsan davranışı analizini geliştiren yazılım geliştiriciler
+- Görüntü işleme alanında araştırma yapan akademisyenler
 
 ---
 
 ## 🧰 Kullanılan Teknolojiler
 
-- Python 3.10  
-- OpenCV 4.x  
-- Haar Cascade XML sınıflandırıcıları  
-- DeepFace (Keras/Tensorflow tabanlı duygu analizi)  
-- NumPy  
-- Tkinter (GUI arayüzü)  
-- PIL (Pillow - Görsel işlemler için)
+- Python 3.10
+- OpenCV 4.x
+- Haar Cascade XML dosyaları
+- NumPy
 
 ---
 
@@ -34,16 +31,69 @@ Bu projenin amacı, kameradan alınan görüntülerde insan yüzünü, gözünü
 
 ```bash
 # Gerekli kütüphaneleri yükleyin
-pip install opencv-python numpy deepface pillow tk
+pip install opencv-python numpy
+```
 
-🚀 Kullanım
-bash
-Kopyala
-Düzenle
-python face_emotion_gui.py
-Uygulama açıldığında ekranda bir arayüz görünür.
+---
 
-"Kamera ile Tara" butonuyla canlı tespit yapılabilir.
+## 🚀 Kullanım
 
-"Resim Yükle ve Tara" butonuyla yüklü görselde analiz yapılabilir.
+```bash
+python face_smile_detect.py
+```
 
+[Uygulama çalıştırıldığında bilgisayarın kamerası açılır ve ekranda yüz ile gülümseme tespit edilen alanlar kutucukla gösterilir.]
+
+---
+
+## 📸 Örnek Çıktılar
+
+### 😠 Kızgın Duygu Tespiti
+![Kızgın](outputs/ornek_cikti1.png)
+
+### 😢 Üzgün Duygu Tespiti
+![Üzgün](outputs/ornek_cikti2.png)
+
+### 😀 Mutlu Duygu Tespiti
+![Mutlu](outputs/ornek_cikti3.png)
+
+---
+
+## 📁 Proje Dosya Yapısı
+
+```plaintext
+face-smile-detection/
+├── face_smile_detect.py
+├── haarcascade_frontalface_default.xml
+├── haarcascade_smile.xml
+├── outputs/
+│   └── ornek_cikti.png
+├── poster.pdf
+├── README.md
+├── requirements.txt
+```
+
+---
+
+## 🔗GitHub Linki
+
+[GitHub Projesi Linki]  
+
+
+---
+
+## 👥 Katkı Yapanlar
+
+- **Eren Özkan** – 2405902018 – Karabük Üniversitesi Bilişim Teknolojileri MYO – Yapay Zekâ Operatörlüğü
+
+---
+
+## 🧩 İş Bölümü
+
+- **Eren Özkan**: [Algoritmanın geliştirilmesi, arayüz tasarımı, testler, proje bütünlüğü]
+
+---
+
+## 📄 Lisans
+
+Bu proje MIT Lisansı kapsamında lisanslanmıştır.
