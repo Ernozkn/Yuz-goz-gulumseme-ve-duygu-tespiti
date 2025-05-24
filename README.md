@@ -35,3 +35,15 @@ Bu projenin amacı, kameradan alınan görüntülerde insan yüzünü, gözünü
 ```bash
 # Gerekli kütüphaneleri yükleyin
 pip install opencv-python numpy deepface pillow tk
+
+🚀 Kullanım
+bash
+Kopyala
+Düzenle
+python face_emotion_gui.py
+Uygulama açıldığında ekranda bir arayüz görünür.
+
+"Kamera ile Tara" butonuyla canlı tespit yapılabilir.
+
+"Resim Yükle ve Tara" butonuyla yüklü görselde analiz yapılabilir.
+
