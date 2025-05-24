@@ -1,12 +1,12 @@
-# 🧠 Yüz ve Gülümseme Tespiti Sistemi
+# 🧠 Yüz,Göz,Gülümseme Ve Duygu Tespiti Sistemi
 
-Bu proje, OpenCV'nin Haar Cascade sınıflandırıcılarını kullanarak bir kişinin yüzünü ve gülümsemesini tespit etmeye yarayan gerçek zamanlı bir yapay zekâ uygulamasıdır.
+Bu proje, OpenCV'nin Haar Cascade sınıflandırıcılarını kullanarak bir kişinin yüzünü,gözünü,gülümsemesini ve duygu durumunu tespit etmeye yarayan gerçek zamanlı bir yapay zekâ uygulamasıdır.
 
 ---
 
 ## 🎯 Projenin Amacı
 
-Bu projenin amacı, kameradan alınan görüntülerde insan yüzünü ve gülümsemeyi doğru bir şekilde tespit eden basit ve etkili bir sistem geliştirmektir. Proje, özellikle sosyal robotlar, eğlence uygulamaları ve güvenlik sistemleri gibi alanlarda kullanılabilir.
+Bu projenin amacı, kameradan alınan görüntülerde insan yüzünü,gözünü,gülümsemesini ve duygu durumunu doğru bir şekilde tespit eden basit ve etkili bir sistem geliştirmektir. Proje, özellikle sosyal robotlar, eğlence uygulamaları ve güvenlik sistemleri gibi alanlarda kullanılabilir.
 
 ---
 
