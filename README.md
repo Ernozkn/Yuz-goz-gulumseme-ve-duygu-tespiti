@@ -79,7 +79,9 @@ face-smile-detection/
 
 [[GitHub Projesi Linki](https://github.com/Ernozkn/Yuz-goz-gulumseme-ve-duygu-tespiti)]  
 
+## 🖼️ Proje Posteri
 
+![Proje Afişi](./poster.png)
 ---
 
 ## 👥 Katkı Yapanlar
